@@ -5,9 +5,10 @@
 
 header img{
     width: 85px;
+    height: 85px;
 }
 .navbar{
-    background-color: green;
+    background-color: rgb(131, 171, 131);
 }
 h1{
     font-family: "Lobster", sans-serif;
@@ -25,3 +26,238 @@ h1{
 h2,h3{
     font-weight: lighter;
 }
+.contactimg{
+   display: flex;
+   flex-wrap: wrap;
+   width: 50%;
+}
+.bg-primary{
+    background-color: rgb(143, 194, 143);
+}
+header {
+}
+
+.navbar-brand img {
+    height: 50px;  
+}
+
+.navbar-toggler {
+    border-color: rgba(255,255,255,.1);
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #cce7d0 !important; 
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid #004d40; 
+    padding-bottom: 10px;
+    color: #004d40; 
+}
+
+.section .column,
+.skills-row .skills-column {
+    margin-bottom: 15px;
+}
+
+.skill-item h2 {
+    color: #00695c; 
+    border-bottom: 2px solid #00695c; 
+    padding-bottom: 5px;
+}
+
+.skill-item p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.section .column,
+.skills-row .skills-column {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+}
+
+h1, h2 {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+}
+.navbar-brand img {
+    height: 50px; 
+}
+
+.navbar-toggler {
+    border-color: rgba(255,255,255,.1);
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #cce7d0 !important; 
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid #004d40; 
+    padding-bottom: 10px;
+    color: #004d40; 
+}
+
+.section .column,
+.skills-row .skills-column {
+    margin-bottom: 15px;
+}
+
+.skill-item h2 {
+    color: #00695c; 
+    border-bottom: 2px solid #00695c; 
+    padding-bottom: 5px;
+}
+
+.skill-item p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.section .column,
+.skills-row .skills-column {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+}
+
+h1, h2 {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+}
+
+
+.bg-success {
+    background-color: #004d40 !important; 
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #00695c !important; 
+    color: #fff;
+}
+
+.card-title {
+    border-bottom: 2px solid #004d40; 
+    padding-bottom: 5px;
+}
+h1 {
+    color: #004d40; 
+    border-bottom: 2px solid #004d40; 
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+#messageForm {
+    background-color: #e0f2f1; 
+    animation: fadeInUp 1s ease-in-out;
+}
+
+#messageForm .form-label {
+    color: #004d40; 
+}
+
+#messageForm .form-control {
+    border: 1px solid #004d40; 
+    transition: border-color 0.3s ease;
+}
+
+#messageForm .form-control:focus {
+    border-color: #00695c; 
+    box-shadow: 0 0 5px rgba(0, 105, 92, 0.5);
+}
+
+#messageForm button {
+    background-color: #004d40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#messageForm button:hover {
+    background-color: #00695c; 
+}
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        transform: translate3d(0, -40px, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+footer{
+    width: 100%;
+}
+

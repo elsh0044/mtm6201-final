@@ -1,56 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    
-
-    <link rel="stylesheet" href="main.css">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>Leave a Message</title>
 </head>
+
 <body>
-    <header>
-
-        <nav class="navbar navbar-expand-md " data-bs-theme="dark">
-          <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="images/give me a shark wiht red eyes holding a camera in pencil drawing make it realistic i will be.png" alt="company logo">Sharkyspire</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-        </nav>
-  
-      </header>
-  <div class="contactpage">
-  <img src="images/contact page picture.jpg" >
-  <i class="fa-solid fa-envelope"></i><p>Sharkyspire@me.com</p>
-  <i class="fa-solid fa-phone"></i><p>123-456-789</p>
-</div>
-  
-
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header role="banner">
+    <nav class="navbar navbar-expand-md" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img
+            src="images/give me a shark wiht red eyes holding a camera in pencil drawing make it realistic i will be.png"
+            alt="company logo">Sharkyspire</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="main-content" role="main" class="container mt-5">
+    <h1 class="text-center">Leave a Message</h1>
+    <form id="messageForm" class="p-4 rounded shadow" aria-labelledby="form-title">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name" aria-required="true">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email" aria-required="true">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your Message" aria-required="true"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success w-100">Send Message</button>
+    </form>
+    <footer class="bg-primary text-center text-lg-start text-white">
+      <!-- Grid container -->
+      <div class="container p-4 footerGrid">
+        <!--Grid row-->
+        <div class="row my-4">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
     
+            <div
+              class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+              style="width: 150px; height: 150px;">
+              <img
+                src="images/give me a shark wiht red eyes holding a camera in pencil drawing make it realistic i will be.png"
+                height="70" alt="" loading="lazy" />
+            </div>
+    
+            <p class="text-center">Sharkyspire</p>
+    
+            <ul class="list-unstyled d-flex flex-row justify-content-center">
+              <li>
+                <a class="text-white px-2" href="#!">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="#!">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white ps-2" href="#!">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+    
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Home</h5>
+    
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="index.html#myjourney" class="text-white"><i class="fas fa-paw pe-3"></i>My Journey</a>
+              </li>
+              <li class="mb-2">
+                <a href="index.html#myeducation" class="text-white"><i class="fas fa-paw pe-3"></i>My Education</a>
+              </li>
+    
+            </ul>
+          </div>
+    
+    
+    
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">About</h5>
+    
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="about.html#myskills" class="text-white"><i class="fas fa-paw pe-3"></i>My Skills</a>
+              </li>
+              <li class="mb-2">
+                <a href="about.html#myexperience" class="text-white"><i class="fas fa-paw pe-3"></i>My Experience</a>
+              </li>
+    
+              </li>
+            </ul>
+          </div>
+    
+    
+    
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Contact</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <p><i class="fas fa-map-marker-alt pe-2"></i>Ottawa, Ontario</p>
+              </li>
+              <li>
+                <p><i class="fas fa-phone pe-2"></i>+ 123-567-890</p>
+              </li>
+              <li>
+                <p><i class="fas fa-envelope pe-2 mb-0"></i>Sharkyspire@me.com</p>
+              </li>
+            </ul>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    
+    
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright
+        <a class="text-white" href="index.html">Sharkyspire.com</a>
+      </div>
+    
+    </footer>
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

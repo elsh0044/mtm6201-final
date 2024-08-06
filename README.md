@@ -19,4 +19,4 @@ Cross-Browser Compatibility: Different browsers render elements differently, whi
 
 Performance Optimization: Loading times were initially slow due to large image files and unoptimized code. I optimized images, minified CSS and JavaScript files, and used lazy loading techniques to improve performance.
 
-Animations and Interactivity: Adding animations and interactive elements without compromising performance was challenging. I used CSS animations and JavaScript to create smooth and engaging interactions while keeping the code efficient.
+Animations and Interactivity: Adding animations and interactive elements without compromising performance was challenging. I used CSS animation to create smooth and engaging interactions while keeping the code efficient.
